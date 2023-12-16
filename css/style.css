@@ -1,0 +1,176 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic&display=swap);
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	font-family: "Roboto";
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+.cont {
+	padding: 10px;
+	background-color: rgba(245, 245, 245, 1);
+	outline: 2px solid rgb(220, 204, 204);
+}
+
+.car {
+	display: inline-block;
+	float: left;
+	width: 515px;
+	height: 343px;
+	margin: -250px 0 0 600px;
+}
+
+.label {
+	display: inline-block;
+	padding-left: 35px;
+	color: #ccc2c2;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 30px; /* 200% */
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	background: url(/img/Overline_Mark.png) no-repeat;
+	margin-bottom: 32px;
+}
+
+.label a:link {
+	color: rgb(206, 38, 232);
+}
+.label a:visited {
+	color: rgb(196, 193, 222);
+}
+.label a:hover {
+	color: rgb(165, 16, 16);
+}
+.label a:active {
+	color: gold;
+}
+.block {
+	width: 2000;
+	padding: 111px 218px 198px 218px;
+	border: 2px solid rgb(200, 200, 209);
+	background:
+		url(/img/pexels-photo-2811496.png) 723px -60px no-repeat,
+		url(../img/BG_Image.png) no-repeat;
+		
+}
+.conteiner {
+	display: inline-block;
+	width: 1020px;
+	font-size: 0;
+}
+h1 {
+	max-width: 411px;
+	color: #fff;
+	/* /Default/36 • H3 Heading */
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 42px; /* 116.667% */
+	margin-bottom: 79px;
+}
+.item {
+	display: inline-block;
+	width: 25%;
+	box-sizing: content-box;
+
+}
+.item_img{
+	display: inline-block;
+}
+.item_body {
+	display: inline-block;
+}
+.car_title {
+	display: inline-block;
+	color: var(---Car-Repair-Primary, #c40b0b);
+	/* /Default/36 • H3 Heading */
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 42px; /* 116.667% */
+}
+.car_text {
+	display: inline-block;
+	color: var(---Neutral-Gray-4, #f5f5f5);
+	/* /Default/16 • Body 1  */
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px; /* 150% */
+	letter-spacing: 0.15px;
+}
+.conteiner :not(:last-child) {
+	margin-right: 23px;
+}
+/* ------------------------------ */
+/* Устанавливает фоновое изображение 
+	для элемента либо задает градиентную заливку */
+/* background-image: url("../img/01.png"); */
+/* background-image: linear-gradient(to bottom, rgba(236, 232, 157, 1) 0%, rgba(94, 83, 115, 1) 50%, rgba(24, 181, 164, 1) 100%); */
+
+/* Определяет, как будет повторяться фоновое изображение */
+/* background-repeat: no-repeat; */
+
+/* Задает начальное положение фонового изображения, где первое значение 
+	(проценты, px, слово) определяет расположение 
+	по горизонтали, второе - вертикали. */
+/* background-position: 0 0; */
+
+/* Масштабирует фоновое изображение согласно заданным размерам. 
+	В цифрах, где первое значение (проценты, px) определяет ширину, 
+	второе - высоту. Либо специальным значением. */
+/* background-size: auto auto; */
+
+/* Устанавливает, будет ли прокручиваться фоновое изображение вместе с содержимым элемента. */
+/* background-attachment: scroll; */
+
+/* Универсальное свойство */
+/* background: green url("../img/01.png") 50% / cover no-repeat fixed; */
+
+/* background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%), url("../img/image_1.jpg") 0 0 / 100px no-repeat, green url("../img/01.png") 50% / cover no-repeat; */
