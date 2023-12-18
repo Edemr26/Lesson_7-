@@ -85,22 +85,22 @@ body {
 .label a:active {
 	color: gold;
 }
-.cont {
+.items {
 	padding: 10px;
 	background-color: rgba(245, 245, 245, 1);
 	outline: 2px solid rgb(220, 204, 204);
 }
-.block {
-	max-width: 1440px;
-	max-height: 580px;
-	padding: 111px 210px 198px 218px;
+.items_container {
+	max-width: 1456px;
+	/* max-height: 580px; */
+	padding: 98px 210px 198px 218px;
 	border: 2px solid rgb(200, 200, 209);
 	background:
 		url(/img/pexels-photo-2811496.png) 723px -60px no-repeat,
 		url(../img/BG_Image.png) no-repeat;
 	margin: 0 auto;
 }
-.conteiner {
+.items_list {
 	max-width: 1020px;
 	font-size: 0;
 }
@@ -116,9 +116,10 @@ h1 {
 }
 .item {
 	display: inline-block;
-	/* width: 25%; */
-	max-width: 247px;
-	margin: o 23px 0 0 ;
+	width: 237px;
+}
+.item:not(:last-child){
+	margin: 0 23px 0 0;
 }
 .item_img {
 	display: inline-block;
@@ -144,9 +145,7 @@ h1 {
 	line-height: 24px;
 	letter-spacing: 0.15px;
 }
-.item :not(:last-child) {
-	margin-right: 23px;
-}
+
 /* ------------------------------ */
 /* Устанавливает фоновое изображение 
 	для элемента либо задает градиентную заливку */
