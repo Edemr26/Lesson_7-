@@ -50,11 +50,6 @@ body {
 	min-height: 100%;
 	overflow: hidden;
 }
-.cont {
-	padding: 10px;
-	background-color: rgba(245, 245, 245, 1);
-	outline: 2px solid rgb(220, 204, 204);
-}
 
 .car {
 	display: inline-block;
@@ -90,18 +85,23 @@ body {
 .label a:active {
 	color: gold;
 }
+.cont {
+	padding: 10px;
+	background-color: rgba(245, 245, 245, 1);
+	outline: 2px solid rgb(220, 204, 204);
+}
 .block {
-	width: 2000;
-	padding: 111px 218px 198px 218px;
+	max-width: 1440px;
+	max-height: 580px;
+	padding: 111px 210px 198px 218px;
 	border: 2px solid rgb(200, 200, 209);
 	background:
 		url(/img/pexels-photo-2811496.png) 723px -60px no-repeat,
 		url(../img/BG_Image.png) no-repeat;
-		
+	margin: 0 auto;
 }
 .conteiner {
-	display: inline-block;
-	width: 1020px;
+	max-width: 1020px;
 	font-size: 0;
 }
 h1 {
@@ -116,36 +116,35 @@ h1 {
 }
 .item {
 	display: inline-block;
-	width: 25%;
-	box-sizing: content-box;
-
+	/* width: 25%; */
+	max-width: 247px;
+	margin: o 23px 0 0 ;
 }
-.item_img{
+.item_img {
 	display: inline-block;
 }
 .item_body {
 	display: inline-block;
+	vertical-align: top;
 }
 .car_title {
-	display: inline-block;
-	color: var(---Car-Repair-Primary, #c40b0b);
+	color: #c40b0b;
 	/* /Default/36 • H3 Heading */
 	font-size: 36px;
 	font-style: normal;
 	font-weight: 900;
-	line-height: 42px; /* 116.667% */
+	line-height: 42px;
 }
 .car_text {
-	display: inline-block;
-	color: var(---Neutral-Gray-4, #f5f5f5);
+	color: #f5f5f5;
 	/* /Default/16 • Body 1  */
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: 24px; /* 150% */
+	line-height: 24px;
 	letter-spacing: 0.15px;
 }
-.conteiner :not(:last-child) {
+.item :not(:last-child) {
 	margin-right: 23px;
 }
 /* ------------------------------ */
